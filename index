@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Inside Cascade</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="stylesheet.css">
+<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+<style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  </style>
+</head>
+
+<body>
+
+<!-- The sidebar -->
+<div class="sidebar">
+  <a class="active" href="#home">Home</a>
+  <a href="sample_req.html">Sample Request</a>
+  <a href="#stocking_lists">Stocking Lists</a>
+  <a href="#manufactures">Manufacture Contact</a>
+ </div>
+
+<div class="content">
+  <img src="https://s3-us-west-2.amazonaws.com/cfbwebsiteimages/floating_logo_cfb.png" alt="corp logo" class="responsive">
+  <h1>Inside Cascade - Your Place to find:</h1>
+</div>
+
+  <div class="content">
+  <ul>
+  <li>Sample Requests</li>
+  <li>Distributor Stocking Lists</li>
+  <li>Manufactures Lists</li>
+  <li>Inside Sales Support</li>
+  <li>Sales Sheets</li>
+</ul>  
+</div>
+
+
+
+</body>
+
+<footer>
+ <address class="content">
+  Contact <a href="mailto:jcarlos@cascadefoodbrokers.com">JC</a>.<br> 
+  Our Address Is:<br>
+  2331 NE Argyle Street<br>
+  Suite A<br>
+  Portland, Ore 97211<br>
+  USA
+</address> 
+</footer>
+</html>
