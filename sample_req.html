@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CFB Sample Request</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.min.css'>
+</head>
+<body>
+
+<div style="text-align: center;">
+<img src="https://s3-us-west-2.amazonaws.com/cfbwebsiteimages/floating_logo_cfb.png">
+<h1>Sample Request Form</h1>
+<p>Please allow two working days to process.</p>
+</div>
+<div>
+<form action="/action_page.php">
+Your Name:<br>
+<input type="text" name="name">
+<br>
+Manufacture Of Sample:<br>
+<input type="text" name="manufacture">
+<br>
+Item Number(s):<br>
+<input type="text" name="itemnumber">
+<br>
+Quantity:<br>
+<input type="text" name="quantity">
+<br>
+Description:<br>
+<input type="text" name="descrip">
+<br>
+Date Needed:<br>
+<input type="text" name="dateneed">
+<br>
+Sample Approved By:<br>
+<input type="text" name="approvedby">
+<br>
+Where should we send your sample?<br>
+<input type="radio" name="location" value="office" checked> Hold At CFB Office<br>
+<input type="radio" name="location" value="home"> Your Home<br>
+<input type="radio" name="location" value="other"> Other 
+<br><br>
+Who is the customer?:<br>
+<textarea name="notes" rows="4" cols="50">
+Please let us know who the sample is for.  
+</textarea>
+Notes:<br>
+<textarea name="notes" rows="4" cols="50">
+Notes Go Here...  
+</textarea>
+<br><br>
+<input type="submit">
+</form> 
+</div>
+</body>
+</html>
